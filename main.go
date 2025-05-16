@@ -31,10 +31,10 @@ func main() {
 	}
 
 	// Number of variations to generate
-	n := 20
+	n := 28
 	for i := 0; i < n; i++ {
 		seed := randString(8)
-		img := arthash.Generate(seed)
+		img := arthash.Generate(seed, arthash.Large)
 
 		// Sanitize filename to avoid special chars
 		filename := fmt.Sprintf("%s/%s.png", outDir, seed)
