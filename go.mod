@@ -1,3 +1,3 @@
-module github.com/flynnfc/monster-hash
+module github.com/flynnfc/artHash
 
 go 1.24.3
